@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="/css/main/css">
+    <link rel="stylesheet" href="/css/formularz.css">
+</head>
+<body>
+        <header class="main-header">
+                <nav class="main-header__nav">
+                    <ul class="main-header__item-list">
+                        <li class="main-header__item"><a  href="/main">Strona Główna</a></li>
+                        <li class="main-header__item"><a class= "active" href="/formularz">Formularz</a></li>
+                    </ul>
+                </nav>
+            </header>
+    <main>
+        <form class=" product-form" action="/formularz" method="POST">
+            <div class="form-control">
+            <label for="title">Imię</label>
+            <input type="text" name="title"> 
+        </div>
+        <form class=" product-form" action="/formularz" method="POST">
+            <div class="form-control">
+            <label for="title">Nazwisko</label>
+            <input type="text" name="title">  
+        </div>
+        <form class=" product-form" action="/formularz" method="POST">
+            <div class="form-control">
+            <label for="title">E-mail</label>
+            <input type="text" name="title">
+        </div>   
+        <form class=" product-form" action="/formularz" method="POST">
+            <div class="form-control">
+            <label for="title">Numer Telefonu</label>
+            <input type="number" name="title">
+            <button type="submit">Dodaj osobę </button>    
+        </div>
+        </form>
+    </main>
+
+</body>
+</html>
